@@ -1,0 +1,72 @@
+/* btn sweet alert */
+.btnConfirm {
+    background: #ff4742;
+    border: 1px solid #ff4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.btnConfirm:hover,
+.btnConfirm:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #ff4742;
+}
+
+.btnConfirm:active {
+    opacity: 0.5;
+}
+.btnCancel {
+    background: #42a4ff;
+    border: 1px solid #42a4ff;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.btnCancel:hover,
+.btnCancel:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #ff4742;
+}
+
+.btnCancel:active {
+    opacity: 0.5;
+}
+
+.titleDeleteItem {
+    font-size: large;
+    color: #a13431;
+}
